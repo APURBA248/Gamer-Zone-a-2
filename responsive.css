@@ -1,0 +1,202 @@
+/* responsive for mobile */
+@media screen and (max-width: 576px) {
+  header,
+  .funny-videos-sec,
+  .play-games-container {
+    padding: 20px;
+  }
+  nav,
+  .nav-item-container ul,
+  .funny-video-card-container {
+    flex-direction: column;
+  }
+  .nav-item-container {
+    margin-top: 20px;
+  }
+  /* main start */
+  /* banner-sec-start */
+  .banner-container {
+    flex-direction: column-reverse;
+    padding: 20px;
+    background-image: none;
+  }
+  .banner-info {
+    padding: 0;
+  }
+  .banner-s-title {
+    font-size: 1.5rem;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-info p {
+    font-size: 0.6rem;
+    margin-top: 30px;
+  }
+  .banner-btn-one,
+  .banner-btn-tow {
+    font-size: 0.6rem;
+    padding: 10px 20px;
+  }
+  .banner-img img {
+    padding: 20px;
+    margin: 30px 0;
+  }
+  /* funny videos sec start */
+  .funny-video-info h2,
+  .play-game-info h2 {
+    font-size: 1.5rem;
+  }
+  .card p,
+  .play-game-info p {
+    font-size: 1rem;
+  }
+  .card > img {
+    max-width: 100%;
+  }
+  /* play games sec start */
+  .play-games-container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .play-game-info h2,
+  .play-game-info p {
+    text-align: center;
+  }
+  .play-games-small-img {
+    position: absolute;
+    right: 5px;
+    top: 120px;
+    width: 40%;
+  }
+  .play-games-big-img {
+    width: 80%;
+  }
+  /* comments sec start */
+  .comments-container {
+    margin: 20px 0px;
+  }
+  .comment {
+    margin: 10px;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  .comment:hover {
+    border: 1px solid #ff42a5;
+  }
+  .comment > img {
+    width: 30%;
+    padding: 0;
+  }
+  .comment h6 {
+    font-size: 0.5rem;
+    padding-left: 5px;
+  }
+  /* footer start  */
+  footer {
+    background-color: #0b0223;
+    padding: 80px 20px;
+    color: #fff;
+  }
+  .footer-li-container {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  footer i {
+    margin: 20px;
+  }
+}
+/* responsive for tablet */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  /* header start */
+  header,
+  .funny-videos-sec,
+  .play-games-container {
+    padding: 20px;
+  }
+  /* main start */
+  /* banner-sec-start */
+  .banner-container {
+    flex-direction: column-reverse;
+    padding: 20px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 600px;
+  }
+  .banner-info {
+    padding: 80px 60px;
+  }
+  .banner-s-title {
+    font-size: 2rem;
+  }
+  .banner-title {
+    font-size: 4rem;
+  }
+  .banner-info p {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+  .banner-btn-one,
+  .banner-btn-tow {
+    font-size: 1rem;
+    padding: 15px 30px;
+  }
+  .banner-img img {
+    padding: 20px;
+    margin: 30px 0;
+  }
+  /* funny videos sec start */
+  .funny-video-info h2 {
+    font-size: 1.5rem;
+  }
+  .card p {
+    font-size: 0.6rem;
+  }
+  .card > img {
+    max-width: 100%;
+  }
+  .overly {
+    border: 3px solid #ff42a5;
+    border-radius: 10px;
+  }
+  /* play games sec start */
+  .play-games-container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .play-game-info h2,
+  .play-game-info p {
+    text-align: center;
+  }
+  .play-games-small-img {
+    position: absolute;
+    right: 5px;
+    top: 310px;
+    width: 40%;
+  }
+  .play-games-big-img {
+    width: 80%;
+  }
+  /* comments sec start */
+  .comments-container {
+    margin: 100px 0px;
+  }
+  .comment {
+    margin: 25px;
+    width: 25%;
+    border: 2px solid white;
+    border-radius: 30px;
+  }
+  .comment:hover {
+    border: 2px solid #ff42a5;
+  }
+  .comment > img {
+    width: 30%;
+    padding: 0;
+  }
+  .comment h6 {
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+}
