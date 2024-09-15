@@ -12,6 +12,7 @@ header {
   padding: 20px 240px;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 nav {
   display: flex;
